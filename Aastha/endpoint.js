@@ -18,10 +18,10 @@ function sorter(arr) {
 
 module.exports = function (app) {
   app.get("/", (req, res) => {
-    res.send("Please refer to /bhfl");
+    res.send("Please refer to /bfhl");
   });
 
-  app.post("/bhfl", (req, res) => {
+  app.post("/bfhl", (req, res) => {
     var data = req.body.data;
 
     sorter(data);
